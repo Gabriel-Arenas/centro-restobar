@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platos - Restobar "Centro"</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #56d652;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .platos-item {
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .platos-item:hover {
+            transform: scale(1.05);
+        }
+        .platos-descripcion {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .platos-descripcion h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        .platos-descripcion p {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #666;
+        }
+        .precio {
+            font-size: 22px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .imagen-platos img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .footer {
+            background-color: #6f42c1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Platos - Restobar "Centro"</h1>
+    </header>
+
+    <div class="contenedor">
+        <div class="platos-item">
+            <div class="imagen-platos">
+                <img src="/assets/images/ceviche.jpg" alt="ceviche">
+            </div>
+            <div class="platos-descripcion">
+                <h3>Ceviche</h3>
+                <p>El ceviche peruano es pescado crudo marinado en jugo de limón y ají, acompañado de cebolla, cilantro, camote y choclo.</p>
+            </div>
+            <div class="precio">S/. 20</div>
+        </div>
+
+        <div class="platos-item">
+            <div class="imagen-platos">
+                <img src="/assets/images/lomo-saltado.jpg" alt="Lomo saltado">
+            </div>
+            <div class="platos-descripcion">
+                <h3>Lomo Saltado</h3>
+                <p>El lomo saltado es un plato peruano que mezcla carne de res salteada con cebolla, tomate, ají, salsa de soya y papas fritas, servido con arroz.</p>
+            </div>
+            <div class="precio">S/. 25</div>
+        </div>
+
+        <div class="platos-item">
+            <div class="imagen-platos">
+                <img src="/assets/images/causa-rellena.jpg" alt="causa rellena">
+            </div>
+            <div class="platos-descripcion">
+                <h3>Causa Rellena</h3>
+                <p>La causa rellena es un plato peruano hecho de puré de papa sazonado con ají amarillo, limón y aceite, relleno de pollo, atún o mariscos, y decorado con huevo duro y aceitunas.</p>
+            </div>
+            <div class="precio">S/. 15</div>
+        </div>
+
+        <div class="platos-item">
+            <div class="imagen-platos">
+                <img src="/assets/images/aji-de-gallina.jpg" alt="Aji de gallina">
+            </div>
+            <div class="platos-descripcion">
+                <h3>Aji de Gallina</h3>
+                <p>El ají de gallina es un plato peruano de pollo deshilachado en una salsa cremosa de ají amarillo, queso, nuez de la india y leche, acompañado de arroz y papas.</p>
+            </div>
+            <div class="precio">S/. 23</div>
+        </div>
+
+        <div class="platos-item">
+            <div class="imagen-platos">
+                <img src="/assets/images/escabeche.jpg" alt="Escabeche">
+            </div>
+            <div class="platos-descripcion">
+                <h3>Escabeche</h3>
+                <p>El escabeche peruano es un plato a base de pollo, cebolla, ají, y especias, servido frío y acompañado de papas o arroz.</p>
+            </div>
+            <div class="precio">S/. 23</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - Restobar "Centro"</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #56d652;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .bebida-item {
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .bebida-item:hover {
+            transform: scale(1.05);
+        }
+        .bebida-descripcion {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .bebida-descripcion h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        .bebida-descripcion p {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #666;
+        }
+        .precio {
+            font-size: 22px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .imagen-bebida img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .footer {
+            background-color: #6f42c1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bebidas - Restobar "Centro"</h1>
+    </header>
+
+    <div class="contenedor">
+        <div class="bebida-item">
+            <div class="imagen-bebida">
+                <img src="/assets/images/pisco-sour.JPG" alt="Pisco Sour">
+            </div>
+            <div class="bebida-descripcion">
+                <h3>Pisco Sour</h3>
+                <p>El clásico cóctel peruano, hecho con pisco, jugo de limón, clara de huevo y jarabe de goma.</p>
+            </div>
+            <div class="precio">S/. 10</div>
+        </div>
+
+        <div class="bebida-item">
+            <div class="imagen-bebida">
+                <img src="/assets/images/machu-picchu.jpg" alt="Machu Picchu">
+            </div>
+            <div class="bebida-descripcion">
+                <h3>Machu Picchu</h3>
+                <p>El cóctel Machu Picchu combina pisco, jugo de maracuyá, limón y jarabe, creando una bebida refrescante y afrutada.</p>
+            </div>
+            <div class="precio">S/. 12</div>
+        </div>
+
+        <div class="bebida-item">
+            <div class="imagen-bebida">
+                <img src="/assets/images/chilcano.jpg" alt="Chilcano">
+            </div>
+            <div class="bebida-descripcion">
+                <h3>Chilcano</h3>
+                <p>El chilcano es un cóctel peruano que se prepara con pisco, ginger ale, jugo de limón y hielo, ofreciendo un sabor refrescante y ligeramente cítrico.</p>
+            </div>
+            <div class="precio">S/. 8</div>
+        </div>
+
+        <div class="bebida-item">
+            <div class="imagen-bebida">
+                <img src="/assets/images/mojito.jpg" alt="Mojito">
+            </div>
+            <div class="bebida-descripcion">
+                <h3>Mojito</h3>
+                <p>El mojito es un cóctel cubano hecho con ron blanco, menta, azúcar, limón, agua con gas y hielo, conocido por su sabor refrescante y ligeramente dulce..</p>
+            </div>
+            <div class="precio">S/. 11</div>
+        </div>
+
+        <div class="bebida-item">
+            <div class="imagen-bebida">
+                <img src="/assets/images/tequila.jpg" alt="tequila">
+            </div>
+            <div class="bebida-descripcion">
+                <h3>tequila</h3>
+                <p>El cóctel tequila es una bebida que destaca el sabor del tequila, generalmente combinado con jugo de limón, sal y a veces refresco de cola o jugo de naranja..</p>
+            </div>
+            <div class="precio">S/. 9</div>
+        </div>
+    </div>
+
+</body>
+</html>
